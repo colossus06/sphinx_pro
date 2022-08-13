@@ -7,7 +7,7 @@ Let's start updating python:
 
 **Getting started with sphinx**
 
-- ``sudo apt install python3-sphinx``
+- ``pip install -U sphinx``
 - ``mkdir project``
 - ``cd /path/to/project``
 - ``mkdir docs``
@@ -15,7 +15,7 @@ Let's start updating python:
 - ``sphinx-quickstart``
 
 
-![image](https://user-images.githubusercontent.com/96833570/184400139-e5a1abb6-7d88-4489-ad33-47861b1d1fba.png)
+![image](https://user-images.githubusercontent.com/96833570/184484605-48431679-2816-4322-9ec8-ff0de1dd8d03.png)
 
 
 
@@ -23,10 +23,10 @@ Let's start updating python:
 **Creating an html documentation**
 
 
-- ``make html`` 
+- ``make clean html`` 
 
 Oputput should look similar to this: The HTML pages are in ``_build/html``.
 
 - ``cd docs``
 - ``open _build/html/index.html``
-![image](https://user-images.githubusercontent.com/96833570/184403140-dfc3e766-44d5-4bf4-b88a-c6d025aa7a91.png)
+![image](https://user-images.githubusercontent.com/96833570/184484762-30190dcf-8d89-4fd8-beca-7547b65eccab.png)
