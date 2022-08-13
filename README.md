@@ -66,7 +66,7 @@ extensions = [
 
 ``pip install sphinx-autobuild``
 
-``sphinx-build /home/user/Desktop/sphinx1/docs/source /home/user/Desktop/sphinx1/docs/_build/html``
+``sphinx-autobuild /home/user/Desktop/sphinx1/docs/source /home/user/Desktop/sphinx1/docs/_build/html``
 
 
 ![image](https://user-images.githubusercontent.com/96833570/184496794-62129992-1dbd-4301-a8ac-e9d46832a6ea.png)
