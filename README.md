@@ -1,4 +1,11 @@
 
+## Setting-up the env
+
+``cd project``
+
+``virtualenv -p python3 env1``
+
+``source env1/bin/activate``
 
 ## installing sphinx
 
