@@ -43,6 +43,16 @@ Oputput should look similar to this: The HTML pages are in ``_build/html``.
 
 in your environment run the following command
 
+
+``
+pip install h5py
+pip install typing-extensions
+pip install wheel
+``
+
+And now you're ready for the extensions
+
+
 ``pip install rst-to-myst[sphinx]``
 
 ``pip list``
@@ -66,7 +76,7 @@ extensions = [
 
 ``pip install sphinx-autobuild``
 
-``sphinx-autobuild /home/user/Desktop/sphinx1/docs/source /home/user/Desktop/sphinx1/docs/_build/html``
+`sphinx-autobuild .  _build/html`
 
 
 ![image](https://user-images.githubusercontent.com/96833570/184496794-62129992-1dbd-4301-a8ac-e9d46832a6ea.png)
